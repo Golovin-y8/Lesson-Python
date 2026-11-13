@@ -1,2 +1,3 @@
+SEAT_PER_COMPARTMENT = 4
 seat = int(input("Введите номер места: "))
 print("Ваше купе находится в вагоне номер: ", (seat -1) // 4 + 1)
