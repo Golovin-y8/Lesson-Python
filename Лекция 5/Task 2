@@ -1,4 +1,5 @@
+import math
 x1, y1 = map(float, input("Введите координаты первой точки (х, y)").split())
 x2, y2 = map(float, input("Введите координаты второй точки (х, y)").split())
-distance = math.sqrt(((x1 - x2)**2) + ((y1 - y2)**2)
-print( "расстояние между точками равно: ", distance)
+distance = math.sqrt((x1 - x2)**2) + ((y1 - y2)**2)
+print(f"расстояние между точками равно: {distance:.2f} сантиметров")
